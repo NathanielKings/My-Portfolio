@@ -199,7 +199,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -373,11 +373,26 @@ p {
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
 }
 
-.project-card-image1 {
+.project-card-image1,
+.project-card-image2,
+.project-card-image3,
+.project-card-image4 {
     width: 100%;
     height: 200px;
     overflow: hidden;
+}
+
+
+.project-card-image1 {
     background: url(./images/project\ card\ 1.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project-card-image2 {
+    background: url(./images/project\ card\ 2.PNG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
