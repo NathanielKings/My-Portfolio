@@ -380,6 +380,7 @@ p {
     width: 100%;
     height: 200px;
     overflow: hidden;
+    position: relative;
 }
 
 
@@ -865,6 +866,13 @@ p {
 
     .right-hero-section {
         width: 100%;
+        display: none;
+    }
+
+    .right-hero-section img {
+        width: 250px;
+        height: 250px;
+
     }
 
     .about-me-section {
