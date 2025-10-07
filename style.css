@@ -857,7 +857,7 @@ p {
     .hero-section {
         height: auto;
         flex-direction: column;
-        padding: 8rem 2rem;
+        padding: 12rem 1rem;
     }
 
     .left-hero-section {
