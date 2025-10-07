@@ -862,6 +862,13 @@ p {
 
     .left-hero-section {
         width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-hero-section h1,
+    .left-hero-section p {
+        text-align: center;
     }
 
     .right-hero-section {
